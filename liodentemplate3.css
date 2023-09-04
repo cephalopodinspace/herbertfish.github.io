@@ -1,0 +1,422 @@
+/*
+  Free to use CSS by Katie (#106445).
+  This code may be altered, edited, or re-uploaded. 
+  Do NOT sell this code.
+  Do NOT remove this credit. 
+*/
+
+
+/* FONT (From Google Fonts) */
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Open+Sans&display=swap');
+
+
+/* BACKGROUND */
+
+@media screen and (min-width: 601px){
+body {
+	background: url('https://i.postimg.cc/V6F8pH8f/Brueghel.jpg') center center fixed;
+	background-size: 100%;
+	font-family: 'Open Sans', sans-serif;
+	color: #2e2a2b;
+}
+
+
+/* FEED ALL, PLAY ALL */
+
+.feature {
+	background: #E6CDAC !important;
+	color: #301E28;
+	border: 1px solid #301E28 !important;
+	border-radius: 5px;
+}
+
+
+/* TOPBAR ("Welcome back, ___"), NAVBAR (Den/Crossroads/Etc.) */
+
+.topbar {
+	background: #301e28;
+	border: none;
+	border-top: none;
+	color: #e6e6e6;
+	border-radius: 0px;
+}
+
+.navbar {
+	background: #301e28;
+	border-bottom: none;
+	color: #e6e6e6;
+	border-radius: 0px;
+}
+
+.navbar li a {
+	color: #e6e6e6 !important;
+}
+
+/* NAVBAR HOVER COLOR */
+
+.navbar li a:hover {
+	background: #540246 !important;
+}
+
+
+/* MAIN PANEL */
+
+/* RIGHT SIDE */
+.container.main {
+	background: #f4eada;
+	border: none;
+	box-shadow: none;
+	border-radius: 5px;
+}
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: #F7E3C5;
+        border-right: none;
+}
+
+/* BREADCRUMB (Home / Den) */
+
+.breadcrumb {
+	background: #A6EDDD;
+        border: none;
+	border-radius: 5px;
+}
+
+.breadcrumb .active {
+	color: #301E28;
+}
+
+/* BOOKMARK BUTTON */
+
+input.floatright {
+	background: #4DEDC3 !important;
+	border: 1px solid #301E28 !important;
+	color: #301E28;
+	border-radius: 5px !important;
+        font-weight: normal !important;
+}
+
+/* CSS CREDIT */
+
+.breadcrumb::after {
+        content: "CSS by Katie (#106445)";
+        color: #301E28;
+        position: absolute;
+        right: 13%;
+        z-index: 100;
+    }
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%;
+        }
+    }
+
+
+/* SWITCH ACCOUNT BUTTON */
+
+button.button, button.button:hover {
+	background: #4DEDC3;
+	border: 1px solid #301E28;
+	color: #301E28;
+        text-shadow: none !important;
+}
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+.feature,
+div.left {
+	background: #4DEDC3;
+	color: #301E28;
+	border: 1px solid #301E28;
+	border-radius: 5px !important;
+}
+
+
+/* ENERGY BARS, ACHIEVEMENTS, & BOOKMARKS */
+
+filterlions {
+	background: #F3D6AA !important;
+	box-shadow: none !important;
+	border: 1px solid #301E28 !important;
+	color: #301E28 !important;
+	border-radius: 5px;
+}
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: #eee5d9;
+	color: #513322 !important;
+	border-radius: 5px !important;
+}
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #301E28 !important;
+}
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+	color: #301E28 !important;
+	background-color: #a0a396;
+	border-radius: 5px !important;
+}
+
+
+.progress-bar-warning {
+	background-color: #ab742a;
+}
+
+.progress-bar-danger {
+	background-color: #cc4f2c;
+}
+
+.progress-bar-success {
+	background-color: #576849;
+}
+
+/* CHAT BOX SHOW */
+
+input#btnToggleSidebarChat {
+	background: #4DEDC3 !important;
+	border: 1px solid #301E28 !important;
+	border-radius: 5px !important;
+        font-weight: normal !important;
+}
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {
+	color: #301E28;
+	font-size: 48px;
+	text-align: center;
+        margin-top: 30px !important;
+	font-family: 'Bungee', cursive;
+}
+
+
+/* MEDIUM HEADER */
+
+h2 {
+	color: #301E28;
+	font-size: 24px;
+	text-align: center;
+}
+
+
+/* SMALL HEADER */
+
+h3 {
+	color: #301E28 !important;
+	font-size: 14px !important
+}
+
+/* RIGHT SIDE PANEL HEADER */
+
+.sidebar h3 {
+        font-size: 20px !important;
+	text-transform: uppercase;
+        text-shadow: 1px 1px rgba(238, 229, 217, 0.8) !important;
+}
+
+
+/* LION INFO TABLE (Level, Stats, Branch, Territory Count, Etc.) */
+
+
+/* PANEL BACKGROUND COLOR */
+.table {
+	background: #F7E3C5;
+	border: 1px solid #301E28 !important;
+	border-collapse: separate;
+	border-radius: 0px;
+}
+
+
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+.top,
+.bottom,
+th {
+	background: #301E28 !important;
+	color: #e6e6e6 !important;
+	border-radius: 0px;
+}
+
+td.bottom a {
+        text-decoration: none !important;
+}
+
+/* Block of color where "Territory Description, Player Name, Avatar URL" etc. are */
+
+.table .left {
+	background: #F4EADA;
+}
+
+/* Affects the color behind your territory description, player name, etc. */
+
+input,
+select,
+textarea {
+	background: #F4EADA !important;
+	border-style: solid;
+        border-width: 1px !important;
+	border-color: #762D19;
+	border-radius: 5px;
+	box-shadow: 0px 1px #762D19 !important;
+	color: #301E28 !important;
+	text-shadow: none !important;
+}
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+.inner-table .left {
+	background: #4DEDC3 !important;
+	border-radius: 0px;
+}
+
+
+/* Color behind the number of all of the things above */
+
+.inner-table .right {
+	background: #ACFBE1;
+	border-radius: 0px !important;
+}
+
+
+
+
+td.right {
+	border-radius: 0px !important;
+	
+}
+
+/* cell color */
+.right {
+	background: #F7E3C5;
+}
+
+.td.left {
+	background: #4DEDC3;
+}
+
+/* alternating color */
+.right_odd {
+	background: #F4EADA !important;
+}
+
+/* cub */
+.right_cub {
+	background: #F3D6AA !important;
+}
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+
+.item-header {
+	background: #E6CDAC !important;
+	color: #301E28  !important;
+	border-radius: 5px 5px 0px 0px !important;
+}
+
+.item {
+	background: #F4EADA !important;
+	border: 1px solid #301E28 !important;
+	border-radius: 0px !important;
+}
+
+/* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
+
+div.slider.round {
+	background: #A6896F !important;
+}
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", etc. and cave/mound names */
+
+.cave-grid,
+.mound-grid {
+	background: #F7E3C5;
+	border: 1px solid #301E28 !important;
+        color: #301E28 !important;
+	border-radius: 5px !important;
+}
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+        color: #301E28 !important;
+        text-shadow: none !important;
+}
+
+/* LION IMAGE BORDER */
+.lionImage {
+	border-top-style: double #301E28;
+	border-bottom-stule: 5px;
+}
+
+/* LINKS & LINK HOVER COLOR */
+
+a:link,
+a:visited {
+	color: #762D19 !important;
+	font-weight: bold;
+}
+
+.top a, .bottom a, .th a {
+        color: #762D19 !important;
+	font-weight: bold;
+}
+
+.cave-grid a, .mound-grid a {
+        color: #762D19 !important;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #FF005E !important;
+	font-weight: bold;
+}
+
+@media only screen and (min-width: 1200px) {
+		div.quote {
+			width: 790px;
+		}
+	}
+
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+	width: 12px;
+	height: 7px;
+	background: #301E28;
+}
+
+
+/* SCROLL BAR BACKGROUND */
+
+::-webkit-scrollbar-track {
+	background: #A3A3A3;
+}
+
+
+/* SCROLL BAR "THUMB" */
+
+::-webkit-scrollbar-thumb {
+	background: #A3A3A3;
+	border-radius: 5px;
+}
+
