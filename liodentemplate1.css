@@ -42,6 +42,14 @@ body {
 	border-radius: 0px;
 }
 
+.topbar li a {
+	color: #cc9c4b !important;
+}
+
+.topbar .welcomeback a {
+	color: #cc9c4b !important;
+}
+
 .navbar {
 	background: #301e28;
 	border-bottom: none;
@@ -376,7 +384,7 @@ a:visited {
 }
 
 .top a, .bottom a, .th a {
-        color: #fcad25 !important;
+        color: #cc9c4b !important;
 	font-weight: bold;
 }
 
